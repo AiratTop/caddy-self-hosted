@@ -4,6 +4,7 @@ services:
     container_name: caddy
     hostname: caddy
     image: caddy:latest
+    # build: .
     networks:
       - shared_network
     restart: always
