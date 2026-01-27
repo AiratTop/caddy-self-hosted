@@ -30,6 +30,7 @@ It is configured to connect to a shared Docker network, allowing easy integratio
 
 3.  **Set your domain:**
     Edit the `.env` file and set `DOMAIN_NAME` to your primary domain (for example, `DOMAIN_NAME=example.com`) and `SSL_EMAIL`.
+    You can use my Open Source [password generator](https://pass.airat.top) to create a strong password.
 
 4.  **Configure Caddyfile:**
     Open the `config/Caddyfile` file and adjust any reverse-proxy blocks you need.
